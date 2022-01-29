@@ -22,7 +22,10 @@ public class OrbSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q)) {
+        int orbMax = 10;
+
+        if (orbPool.Count < 10) {
+            if (Input.GetKeyDown(KeyCode.Q)) {
             spawn(track1);
         } else if (Input.GetKeyDown(KeyCode.W)) {
             spawn(track2);
@@ -30,14 +33,18 @@ public class OrbSpawner : MonoBehaviour
             spawn(track3);
         } else if (Input.GetKeyDown(KeyCode.R)) {
             spawn(track4);
-        } 
-
+            } 
+        }
+    
         if (orbPool.Count > 0) {
             foreach(GameObject g in orbPool)
             {
-                g.transform.position -= new Vector3((float)0.03,0,0);
+                g.transform.position -= new Vector3((float)0.01,0,0);
             }
         }
+
+
+
 
     }
 }
