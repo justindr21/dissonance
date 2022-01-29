@@ -3,6 +3,9 @@
 ###
 [Aa]ssets/AssetStoreTools*
 [Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
 [Ll]ibrary/
 [Ll]ocal[Cc]ache/
 [Oo]bj/
