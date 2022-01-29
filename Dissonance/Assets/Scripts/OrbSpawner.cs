@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.EventSystems;
@@ -14,8 +15,8 @@ public class OrbSpawner : MonoBehaviour
     public Vector3 orbPosTest;
 
     public void spawn(GameObject t) {
-        Vector3 trackStart = t.transform.position + new Vector3(5,0,0);
-        orbPool.Add(Instantiate(orb, trackStart, Quaternion.identity));
+        float trackStartY = t.transform.position.y;
+        orbPool.Add(Instantiate(orb, new Vector3(5, trackStartY, 0), Quaternion.identity));
         orbPosTest = orbPool[0].transform.position;
     }
 
@@ -39,9 +40,10 @@ public class OrbSpawner : MonoBehaviour
         if (orbPool.Count > 0) {
             foreach(GameObject g in orbPool)
             {
-                g.transform.position -= new Vector3((float)0.01,0,0);
+                g.transform.position -= new Vector3((float) 0.01, 0, 0);
             }
         }
+
 
 
 
