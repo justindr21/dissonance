@@ -7,17 +7,18 @@ using UnityEngine;
 public class OrbSpawner : MonoBehaviour
 {
     public GameObject orb;
+    public GameObject bar;
     public List<GameObject> orbPool;
     public GameObject track1;
     public GameObject track2;
     public GameObject track3;
     public GameObject track4;
     public Vector3 orbPosTest;
+    public Vector3 barPos;
 
     public void spawn(GameObject t) {
         float trackStartY = t.transform.position.y;
         orbPool.Add(Instantiate(orb, new Vector3(5f, trackStartY, 0), Quaternion.identity));
-        orbPosTest = orbPool[0].transform.position;
     }
 
     // Update is called once per frame
@@ -44,5 +45,7 @@ public class OrbSpawner : MonoBehaviour
                     g.transform.position -= new Vector3(0.01f, 0f, 0f);
                 }
             }
+            barPos = bar.transform.position;
+
     }
 }

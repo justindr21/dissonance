@@ -300,6 +300,7 @@ GameObject:
   - component: {fileID: 468792599}
   - component: {fileID: 468792598}
   - component: {fileID: 468792597}
+  - component: {fileID: 468792600}
   m_Layer: 0
   m_Name: Bar
   m_TagString: Untagged
@@ -317,7 +318,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -331,7 +332,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.5, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &468792598
 SpriteRenderer:
@@ -393,11 +394,23 @@ Transform:
   m_GameObject: {fileID: 468792596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.75, y: 3.5, z: 1}
+  m_LocalScale: {x: 0.7414445, y: 3.4600744, z: 0.9885927}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &468792600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468792596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ffe61f381053e459761d83f2131076, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,9 +702,11 @@ GameObject:
   - component: {fileID: 839544575}
   - component: {fileID: 839544574}
   - component: {fileID: 839544576}
+  - component: {fileID: 839544577}
+  - component: {fileID: 839544578}
   m_Layer: 0
   m_Name: Circle
-  m_TagString: Untagged
+  m_TagString: Activator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -759,7 +774,7 @@ Transform:
   m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &839544576
 MonoBehaviour:
@@ -773,6 +788,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 331aa2d551a67494f9ea27688af9a5f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movX: 0
+  movY: 0
+--- !u!50 &839544577
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839544573}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &839544578
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839544573}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.49999997
 --- !u!1 &1004811071
 GameObject:
   m_ObjectHideFlags: 0
@@ -1017,12 +1071,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orb: {fileID: 839544573}
+  bar: {fileID: 468792596}
   orbPool: []
   track1: {fileID: 1009455445}
   track2: {fileID: 463418861}
   track3: {fileID: 1507771765}
   track4: {fileID: 2010448161}
   orbPosTest: {x: 0, y: 0, z: 0}
+  barPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1106315061
 GameObject:
   m_ObjectHideFlags: 0
