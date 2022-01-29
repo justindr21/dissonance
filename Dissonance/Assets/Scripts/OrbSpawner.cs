@@ -6,16 +6,17 @@ using UnityEngine;
 public class OrbSpawner : MonoBehaviour
 {
     public GameObject orb;
+    public List<GameObject> orbPool;
     public GameObject track1;
     public GameObject track2;
     public GameObject track3;
     public GameObject track4;
-    public Vector3 test;
-    public Vector3 test2;
+    public Vector3 orbPosTest;
 
     public void spawn(GameObject t) {
         Vector3 trackStart = t.transform.position + new Vector3(5,0,0);
-        GameObject a = Instantiate(orb, trackStart, Quaternion.identity);
+        orbPool.Add(Instantiate(orb, trackStart, Quaternion.identity));
+        orbPosTest = orbPool[0].transform.position;
     }
 
     // Update is called once per frame
@@ -30,5 +31,13 @@ public class OrbSpawner : MonoBehaviour
         } else if (Input.GetKeyDown(KeyCode.R)) {
             spawn(track4);
         } 
+
+        if (orbPool.Count > 0) {
+            foreach(GameObject g in orbPool)
+            {
+                g.transform.position -= new Vector3((float)0.03,0,0);
+            }
+        }
+
     }
 }
