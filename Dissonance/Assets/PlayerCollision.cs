@@ -20,5 +20,4 @@ public class PlayerCollision : MonoBehaviour
         Debug.Log("hit player");
     }
 
-
 }
