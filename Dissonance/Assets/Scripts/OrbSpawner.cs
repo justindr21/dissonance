@@ -28,10 +28,16 @@ public class OrbSpawner : MonoBehaviour
 
             if (orbPool.Count < orbMax) {
             if (Input.GetKeyDown(KeyCode.Q)) {
+        GM.sfxInstance.Audio.PlayOneShot(GM.sfxInstance.Click);
+
             spawn(track1);
         } else if (Input.GetKeyDown(KeyCode.W)) {
+                    BbM.sfxInstance.Audio.PlayOneShot(BbM.sfxInstance.Click);
+
             spawn(track2);
         } else if (Input.GetKeyDown(KeyCode.E)) {
+                    CM.sfxInstance.Audio.PlayOneShot(CM.sfxInstance.Click);
+
             spawn(track3);
         } else if (Input.GetKeyDown(KeyCode.R)) {
             spawn(track4);
