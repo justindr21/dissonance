@@ -2316,3 +2316,99 @@ Received Import Request.
 Start importing Assets/Graphics/Buttons_Blue.png using Guid(ad187f74f2d0cc4499f39a0267b9eda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d31022f25971d0458a0262f04b7f79') in 0.021965 seconds 
   Import took 0.025692 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 117.046552 seconds.
+  path: Assets/Rhythm Game Tutorial/Music/bgm HipHop.wav
+  artifactKey: Guid(122a37135f0442445a473de6ff41a176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhythm Game Tutorial/Music/bgm HipHop.wav using Guid(122a37135f0442445a473de6ff41a176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348fd308c764b53c9019f3f6c4e6043b') in 0.014176 seconds 
+  Import took 0.017931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Rhythm Game Tutorial/Music/DissonanceLead.wav
+  artifactKey: Guid(136472ee29a88664c835ed70843bc3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhythm Game Tutorial/Music/DissonanceLead.wav using Guid(136472ee29a88664c835ed70843bc3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee6ef0752bb497aced1e0ea2a3fc7b4') in 0.013819 seconds 
+  Import took 0.017051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Rhythm Game Tutorial/Music/metallic reverby explosion.wav
+  artifactKey: Guid(f4600fc3940bc5543a73c51873123d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhythm Game Tutorial/Music/metallic reverby explosion.wav using Guid(f4600fc3940bc5543a73c51873123d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88eec4be6daa82ac88c1919d49e845fa') in 0.013692 seconds 
+  Import took 0.017267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Rhythm Game Tutorial/Music/DissonanceChord.wav
+  artifactKey: Guid(6662d8ef8ca7834468c1691087febbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhythm Game Tutorial/Music/DissonanceChord.wav using Guid(6662d8ef8ca7834468c1691087febbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda1b35cc88c76289f1ffda8fdc8b66c') in 0.013662 seconds 
+  Import took 0.016692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Rhythm Game Tutorial/Music/DissonanceBass.wav
+  artifactKey: Guid(bb1d00e3195106d4d90e453f7595fc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhythm Game Tutorial/Music/DissonanceBass.wav using Guid(bb1d00e3195106d4d90e453f7595fc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf9abb99284b0e9e619d03ae351365a') in 0.017512 seconds 
+  Import took 0.020252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Rhythm Game Tutorial/Music/bgm rock.wav
+  artifactKey: Guid(71fd4a280c897db4693027f98bd55b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhythm Game Tutorial/Music/bgm rock.wav using Guid(71fd4a280c897db4693027f98bd55b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb00efeb24ee2cc3d6f00866b2ff22da') in 0.014386 seconds 
+  Import took 0.017616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Rhythm Game Tutorial/Music/DissonanceDrum.wav
+  artifactKey: Guid(10421cfaab4505b409fa48c2daa0ce43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhythm Game Tutorial/Music/DissonanceDrum.wav using Guid(10421cfaab4505b409fa48c2daa0ce43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0665286800a13ae58f0dba5b90a07e') in 0.014399 seconds 
+  Import took 0.017627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.549006 seconds.
+  path: Assets/4762753.png
+  artifactKey: Guid(59fadfbbf1e600341a7ea9c1805424fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4762753.png using Guid(59fadfbbf1e600341a7ea9c1805424fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66a80d6ebf32c6c1692f3989e237a4c') in 0.084114 seconds 
+  Import took 0.088857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Dissonance.png
+  artifactKey: Guid(4c1adee15f2235a48a637809de712543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dissonance.png using Guid(4c1adee15f2235a48a637809de712543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059732eb77b39cd6f28666d8db59fdbe') in 0.052813 seconds 
+  Import took 0.056168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Square.png
+  artifactKey: Guid(91787ac57891ab64d9909991ab1073f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Square.png using Guid(91787ac57891ab64d9909991ab1073f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c7728605e4e7e43eb5e13341412481') in 0.021967 seconds 
+  Import took 0.025749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Circle.prefab
+  artifactKey: Guid(f00cd56c90888ac428874ef78e614440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Circle.prefab using Guid(f00cd56c90888ac428874ef78e614440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dfa904f1d3981d7c9818d9faaed5df') in 0.026450 seconds 
+  Import took 0.029395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Circle.png
+  artifactKey: Guid(db593783e1be8b64cbe50a3de0726cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Circle.png using Guid(db593783e1be8b64cbe50a3de0726cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc3220d225447a3012339a0d0a0a020') in 0.020721 seconds 
+  Import took 0.023902 seconds .
+
