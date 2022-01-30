@@ -746,6 +746,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 331aa2d551a67494f9ea27688af9a5f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movX: 0
+  movY: 0
 --- !u!58 &491672531
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1620,12 +1622,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orb: {fileID: 0}
+  bar: {fileID: 0}
   orbPool: []
   track1: {fileID: 0}
   track2: {fileID: 0}
   track3: {fileID: 0}
   track4: {fileID: 0}
   orbPosTest: {x: 0, y: 0, z: 0}
+  barPos: {x: 0, y: 0, z: 0}
 --- !u!114 &1697309736
 MonoBehaviour:
   m_ObjectHideFlags: 0
