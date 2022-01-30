@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BarScript : MonoBehaviour
 {
@@ -15,8 +16,12 @@ public class BarScript : MonoBehaviour
         }
     }
     // Update is called once per frame
-    void Update()
-    {
-        
+    void Update() {
+        float x = transform.position.x;
+
+        if(x < -6) {
+            SceneManager.LoadScene("GameOver");
+            Debug.Log(transform.position.x);
+        }
     }
 }

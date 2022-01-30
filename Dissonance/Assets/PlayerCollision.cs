@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour
 {
     public GameObject bar;
+    public GameObject game;
 
     // Start is called before the first frame update
     void Start()
@@ -12,16 +13,12 @@ public class PlayerCollision : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter2D(Collider2D other) {
+    private void OnTriggerStay2D(Collider2D other) {
         Vector3 offset = new Vector3(0.3f, 0, 0);
         bar.transform.position -= offset;
         Destroy(other.gameObject);
         Debug.Log("hit player");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
