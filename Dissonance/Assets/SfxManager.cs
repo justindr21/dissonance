@@ -18,7 +18,7 @@ public class SfxManager : MonoBehaviour
         }
 
         sfxInstance = this;
-        DontDestroyOnLoad(this);
+        DontDestroyOnLoad(this);    
     }
 
 
