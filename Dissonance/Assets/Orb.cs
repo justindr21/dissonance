@@ -14,20 +14,6 @@ public class Orb : MonoBehaviour {
     }
 
     void Update() {
-        // movX = 0f;
-        // movY = 0f;
-
-        // if(Input.GetKey(KeyCode.UpArrow)) {
-        //     movY = +0.01f;
-        // } else if (Input.GetKey(KeyCode.DownArrow)) {
-        //     movY = -0.01f;
-        // } else if (Input.GetKey(KeyCode.RightArrow)) {
-        //     movX = +0.01f;
-        // } else if (Input.GetKey(KeyCode.LeftArrow)) {
-        //     movX = -0.01f;
-        // }
-
-        // Vector3 moveDir = new Vector3(movX, movY).normalized;
-        // transform.position += moveDir * 1.0f * Time.deltaTime;
+        transform.position -= new Vector3(0.01f, 0f, 0f);
     }
 }
