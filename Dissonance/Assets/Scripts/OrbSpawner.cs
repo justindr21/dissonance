@@ -7,17 +7,18 @@ using UnityEngine;
 public class OrbSpawner : MonoBehaviour
 {
     public GameObject orb;
+    public GameObject bar;
     public List<GameObject> orbPool;
     public GameObject track1;
     public GameObject track2;
     public GameObject track3;
     public GameObject track4;
     public Vector3 orbPosTest;
+    public Vector3 barPos;
 
     public void spawn(GameObject t) {
         float trackStartY = t.transform.position.y;
-        orbPool.Add(Instantiate(orb, new Vector3(5, trackStartY, 0), Quaternion.identity));
-        orbPosTest = orbPool[0].transform.position;
+        orbPool.Add(Instantiate(orb, new Vector3(5f, trackStartY, 0), Quaternion.identity));
     }
 
     // Update is called once per frame
@@ -25,7 +26,8 @@ public class OrbSpawner : MonoBehaviour
     {
         int orbMax = 10;
 
-        if (orbPool.Count < 10) {
+        if (orbPool.Count < orbMax) {
+            if (orbPool.Count < 10) {
             if (Input.GetKeyDown(KeyCode.Q)) {
             spawn(track1);
         } else if (Input.GetKeyDown(KeyCode.W)) {
@@ -34,19 +36,16 @@ public class OrbSpawner : MonoBehaviour
             spawn(track3);
         } else if (Input.GetKeyDown(KeyCode.R)) {
             spawn(track4);
-            } 
-        }
-    
-        if (orbPool.Count > 0) {
-            foreach(GameObject g in orbPool)
-            {
-                g.transform.position -= new Vector3((float) 0.01, 0, 0);
+            }
             }
         }
-
-
-
-
+        foreach(GameObject g in orbPool)
+            {
+                if (g.transform.position.x > -5f) {
+                    g.transform.position -= new Vector3(0.01f, 0f, 0f);
+                }
+            }
+            barPos = bar.transform.position;
 
     }
 }
