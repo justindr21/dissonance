@@ -30,16 +30,12 @@ public class OrbSpawner : MonoBehaviour
             if (orbPool.Count < 10) {
             if (Input.GetKeyDown(KeyCode.Q)) {
             spawn(track1);
-            audioSource.PlayOneShot(P2Bass);
         } else if (Input.GetKeyDown(KeyCode.W)) {
             spawn(track2);
-            audioSource.PlayOneShot(P2Chords);
         } else if (Input.GetKeyDown(KeyCode.E)) {
             spawn(track3);
-            audioSource.PlayOneShot(P2Drum);
         } else if (Input.GetKeyDown(KeyCode.R)) {
             spawn(track4);
-            audioSource.PlayOneShot(P2Lead);
             }
             }
         }
