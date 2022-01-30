@@ -2412,3 +2412,4 @@ Received Import Request.
 Start importing Assets/Circle.png using Guid(db593783e1be8b64cbe50a3de0726cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc3220d225447a3012339a0d0a0a020') in 0.020721 seconds 
   Import took 0.023902 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
