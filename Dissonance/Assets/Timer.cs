@@ -6,8 +6,12 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
 
-public float timeValue = 120;
+public float timeValue;
 public Text timeText;
+
+void Start() {
+    timeValue = 121f;
+}
 
     // Update is called once per frame
     void Update() {
