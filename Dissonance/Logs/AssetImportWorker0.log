@@ -492,3 +492,92 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002404 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.839 seconds
+Domain Reload Profiling:
+	ReloadAssembly (840ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (690ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2155 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 98.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2638.
+Total: 2.855100 ms (FindLiveObjects: 0.289700 ms CreateObjectMapping: 0.081500 ms MarkObjects: 2.465200 ms  DeleteObjects: 0.017300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 974.538336 seconds.
+  path: Assets/Rhythm Game Tutorial/Music/DissonanceChord.wav
+  artifactKey: Guid(6662d8ef8ca7834468c1691087febbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhythm Game Tutorial/Music/DissonanceChord.wav using Guid(6662d8ef8ca7834468c1691087febbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda1b35cc88c76289f1ffda8fdc8b66c') in 0.047114 seconds 
+  Import took 0.073357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Rhythm Game Tutorial/Music/DissonanceLead.wav
+  artifactKey: Guid(136472ee29a88664c835ed70843bc3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhythm Game Tutorial/Music/DissonanceLead.wav using Guid(136472ee29a88664c835ed70843bc3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee6ef0752bb497aced1e0ea2a3fc7b4') in 0.011831 seconds 
+  Import took 0.052160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Rhythm Game Tutorial/Music/metallic reverby explosion.wav
+  artifactKey: Guid(f4600fc3940bc5543a73c51873123d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhythm Game Tutorial/Music/metallic reverby explosion.wav using Guid(f4600fc3940bc5543a73c51873123d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88eec4be6daa82ac88c1919d49e845fa') in 0.008708 seconds 
+  Import took 0.021989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Rhythm Game Tutorial/Music/DissonanceDrum.wav
+  artifactKey: Guid(10421cfaab4505b409fa48c2daa0ce43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhythm Game Tutorial/Music/DissonanceDrum.wav using Guid(10421cfaab4505b409fa48c2daa0ce43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0665286800a13ae58f0dba5b90a07e') in 0.008352 seconds 
+  Import took 0.043149 seconds .
+
