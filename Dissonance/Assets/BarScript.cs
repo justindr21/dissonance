@@ -12,6 +12,7 @@ public class BarScript : MonoBehaviour
             transform.position += offset;
             Destroy(other.gameObject);
             Debug.Log("hit bar");
+            SfxManager.sfxInstance.Audio.PlayOneShot(SfxManager.sfxInstance.Click);
         }
     }
     // Update is called once per frame
