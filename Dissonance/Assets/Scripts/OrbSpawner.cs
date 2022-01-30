@@ -39,13 +39,10 @@ public class OrbSpawner : MonoBehaviour
             }
             }
         }
-        // foreach(GameObject g in orbPool)
-        //     {
-        //         if (g.transform.position.x > -5f) {
-        //             g.transform.position -= new Vector3(0.01f, 0f, 0f);
-        //         }
-        //     }
-        //     barPos = bar.transform.position;
+
+
+        
 
     }
+    
 }
