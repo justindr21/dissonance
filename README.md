@@ -106,6 +106,3 @@ Chords
 Keys
 Guitar
 
-
-
-Hello!
